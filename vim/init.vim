@@ -37,6 +37,13 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" --- Resizing Mappings ---
+" Use Alt + hjkl to resize panes
+nnoremap <M-h> :vertical resize -2<CR>
+nnoremap <M-l> :vertical resize +2<CR>
+nnoremap <M-k> :resize -2<CR>
+nnoremap <M-j> :resize +2<CR>
+
 " --- Action Mappings ---
 " Clear search highlighting with ,<space>
 nnoremap <leader><space> :noh<cr>
