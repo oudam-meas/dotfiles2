@@ -48,10 +48,6 @@ nnoremap <M-j> :resize +2<CR>
 " Clear search highlighting with ,<space>
 nnoremap <leader><space> :noh<cr>
 
-" Easier split creation
-nnoremap <leader>v :vsplit<CR>
-nnoremap <leader>s :split<CR>
-
 " Quick save with ,w
 nnoremap <leader>w :w<CR>
 
